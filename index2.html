@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <title>Class Test </title>
+
+    <style>
+        
+        
+   
+
+    @media (max-width: 576px) {
+      
+        #card-2{
+            margin-top: -95px;
+        }
+        .twoBanner{
+             display: flex;
+            flex-direction: row-reverse;
+        }
+        .s-head{
+            padding: 25px;
+        }
+        
+        .search-container {
+      background-color: #6a88a7; /* Background color */
+
+      margin-top: 40px;
+
+      /* margin-right: 170px; */
+      height: 80px;
+      width: 410px;
+      padding: 25px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.
+      ); /* Box shadow */
+    }
+    .searchfield{
+        display: flex;
+        gap: 30px;
+    }
+
+    .input{
+        height: 40px;
+        width: 200px;
+        /* padding: 20px; */
+        
+    }
+
+
+    .statistics{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: px;
+        text-align: center;
+        padding-left: 20px;
+        border-style: none;
+        border-radius: 20px;
+    }
+
+    .fCname{
+        font-size: 40px;
+    }
+    .footerLinks a{
+        text-decoration: none;
+    }
+    #boost {
+        background-image: url('./images/bg-1.jpg');
+        height: 220px;
+    }
+    .card{
+    }
+    .reco{
+        margin-bottom: 40px;
+    }
+    }
+
+
+
+
+
+    @media (min-width: 992px) {
+        .stylesLine{
+         
+        }
+       .navlist-title {
+
+        font-size: 45px;
+       }
+      #navbarText{
+        justify-content: space-between;
+       
+      }
+
+      .navlist{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .buttonall{
+        font-size: 35px;
+      }
+
+      #twoBanner{
+        padding-top: 20px;
+        
+        
+      }
+
+      #search{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 100px;
+        width: 85%;
+        margin-left: 10%;
+
+        
+        background-color: blue;
+        font-weight: 900;
+        font-size: 35px;
+        gap: 100px;
+        box-sizing: border-box;
+        box-shadow: 1px;
+        border-radius: 8px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        background-color: #0e2235;
+      
+      }
+
+      .s-head{
+        width: px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .search-head{
+    /* margin-left: 10%;         */
+      }
+      .search-container{
+      }
+     .input {
+        background-color: #1a354e;
+        border: none;
+        /* color: white; */
+    }
+    .btnbd{
+        background-color: #4176a8;
+        border: none;
+        padding: 8px;
+        font-size: 35px;
+        height: 70px;
+        width: 200px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .cardAll{
+
+        padding: 40px;
+    }
+    
+    .statistics{
+        background-color: #dfebf7;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 0px; 
+        border: none
+      
+ 
+    }
+   
+    #card-2{
+        border: 1px solid;
+        box-sizing: border-box;
+        margin-top: 128px;
+        border: none;
+        box-shadow: 10px;
+    }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .stylesLine{
+         
+        }
+       .navlist-title {
+
+        font-size: 45px;
+       }
+      #navbarText{
+        justify-content: space-between;
+       
+      }
+
+      .navlist{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .buttonall{
+        font-size: 35px;
+      }
+
+      #twoBanner{
+        padding-top: 20px;
+        
+        
+      }
+
+      #search{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 100px;
+        width: 85%;
+        margin-left: 10%;
+
+        
+        background-color: blue;
+        font-weight: 900;
+        font-size: 35px;
+        gap: 100px;
+        box-sizing: border-box;
+        box-shadow: 1px;
+        border-radius: 8px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        background-color: #0e2235;
+      
+      }
+
+      .s-head{
+        width: px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .search-head{
+    /* margin-left: 10%;         */
+      }
+      .search-container{
+      }
+     .input {
+        background-color: #1a354e;
+        border: none;
+        /* color: white; */
+    }
+    .btnbd{
+        background-color: #4176a8;
+        border: none;
+        padding: 8px;
+        font-size: 35px;
+        height: 70px;
+        width: 200px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .cardAll{
+
+        padding: 40px;
+    }
+    
+    .statistics{
+        background-color: #dfebf7;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 0px; 
+        border: none
+      
+ 
+    }
+   
+    #card-2{
+        border: 1px solid;
+        box-sizing: border-box;
+        margin-top: 128px;
+        border: none;
+        box-shadow: 10px;
+    }
+    }
+    @media only screen and (min-width: 768px) {
+        .stylesLine{
+         
+        }
+       .navlist-title {
+
+        font-size: 45px;
+       }
+      #navbarText{
+        justify-content: space-between;
+       
+      }
+
+      .navlist{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .buttonall{
+        font-size: 35px;
+      }
+
+      #twoBanner{
+        padding-top: 20px;
+        
+        
+      }
+
+      #search{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 100px;
+        width: 85%;
+        margin-left: 10%;
+
+        
+        background-color: blue;
+        font-weight: 900;
+        font-size: 35px;
+        gap: 100px;
+        box-sizing: border-box;
+        box-shadow: 1px;
+        border-radius: 8px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        background-color: #0e2235;
+      
+      }
+
+      .s-head{
+        width: px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      .search-head{
+    /* margin-left: 10%;         */
+      }
+      .search-container{
+      }
+     .input {
+        background-color: #1a354e;
+        border: none;
+        /* color: white; */
+    }
+    .btnbd{
+        background-color: #4176a8;
+        border: none;
+        padding: 8px;
+        font-size: 35px;
+        height: 70px;
+        width: 200px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    .cardAll{
+
+        padding: 40px;
+    }
+    
+    .statistics{
+        background-color: #dfebf7;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 0px; 
+        border: none
+      
+ 
+    }
+   
+    #card-2{
+        border: 1px solid;
+        box-sizing: border-box;
+        margin-top: 128px;
+        border: none;
+        box-shadow: 10px;
+    }
+    }
+
+    @media (min-width: 600px) {
+        .hide-md {
+            display: none;
+        }
+    }
+    @media (max-width: 767.98px) {
+        .hide-sm {
+            display: none;
+        }
+
+        
+    }
+    </style>
+
+
+
+</head>
+<body style=" background-color: rgb(215, 229, 229);">
+    
+
+    <header>
+    <div>
+        <div class="container">
+            <nav style="text-align: center;" class="nav-head navbar navbar-expand-lg navbar-light bg-light">
+                <a id="navlist" class="navlist-title navbar-brand" href="#" style="font-weight: bolder; 
+                ">S h o r t l y</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <hr>
+
+                  <div>
+                    <ul class=" navbar-nav navlist">
+                        <li class="nav-item  ">
+                          <a class="nav-link ml-4" href="#">Home <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                      </ul>
+                  </div>
+                  <div  class="buttonall">
+                    <button type="button" class="btn btn-light">Login</button>
+                    <button type="button" class="btn btn-info">Sign Up</button>
+                  </div>
+                </div>
+              </nav>
+
+          </div>
+    </div>
+
+    
+    
+    </header>
+
+    <main>
+        <section>
+            <div class="container mt-4 ">
+                <div id="twoBanner" class="row " >
+                    <div class="col-md-6 "> 
+                        <div class="content text-center">
+                            <h1 class="content-title fw-bold ">
+                                More than just shorter links
+                            </h1>
+    
+                            <p class="content-para p-3">
+    
+                                Build your brand's reconization and get detailed insights on how your links are performing.
+                            </p>
+    
+                                        
+                                <div>
+                                    <button style="height: 60px; width: 230px; border-radius: 50px; font-size: 25px; font-weight: 800 ; color: rgb(240, 239, 239); background-color: rgb(67, 206, 211);">Get Started</button>
+                                </div>
+    
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 ">
+                        <img class="img-fluid" src="images/Screenshot 2024-05-15 231111.png" alt="office-image" srcset="">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="searchall">
+           
+  <div  class="s-head">
+    <div class="search-head row ">
+      <div class="">
+        <div class="search-container">
+          <form id="search" action="#" method="GET" class="searchfield  searchfield">
+            <div class="form-group">
+              <input style=" font-size: 35px;" type="text" class="input form-control" placeholder="Search" name="search">
+            </div>
+            <button type="submit" class="btnbd btn-primary">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        </section>
+
+
+
+
+        <!-- Analysis page  -->
+
+      
+<!-- Analysis page  -->
+<section style="margin-top: -15px;" class="reco">
+    <div id="analytics" style="padding: 20px; " class="text-center ">
+        <div id="analyticsItem" style="padding: 15px; ">
+            <h1 class="p-2 fw-bold">Advanced Statistics</h1>
+            <p style="font-weight: 600; font-size: 12px; padding: 10px;" class="reco-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, harum. Similique atque, debitis maiores repudiandae nihil at illo accusantium voluptates.</p>
+        </div>
+    </div>
+   <div class="cardAll">
+    <div class="statistics p-4">
+
+
+
+        <!-- card  -->
+        <div class="">
+
+            <div class="">
+                <div class="row justify-content-center">
+                    <div class="">
+                        <img id="sImg" src="images/monitoring_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Profile image" class="rounded-circle" style="height: 60px; width: 60px; background-color: blueviolet; margin-top: -27px;">
+                    </div>
+                </div>
+            </div>
+
+            <div style="border: 1px solid; box-sizing: border-box;">
+                <div class="card-body mt-3">
+                    <h1  style="color: black; font-weight: 700;">Brand Recognition</h1>
+                    <p class="card-text text-muted" style="margin-top: 20px;">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Styles  -->
+        <div class="hide-md">
+            <div style="height: 60px; background-color: rgb(60, 33, 118); width: 10px; border-radius: 10px;margin: 0 auto; "></div>
+        </div>
+
+
+
+
+        <div id="card-2" >
+            <div style="border: 1px solid; box-sizing: border-box;">
+                <div class="">
+                    <div class="row justify-content-center">
+                        <div class="">
+                            <img id="sImg" src="images/monitoring_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Profile image" class="rounded-circle" style="height: 60px; width: 60px; background-color: blueviolet; margin-top: -27px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body mt-3">
+                    <h1 style="color: black; font-weight: 700;">Brand Recognition</h1>
+                    <p class="card-text text-muted" style="margin-top: 20px; color:">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Styles  -->
+        <div class="hide-md" style="margin-top: -64px;">
+            <div style="height: 60px; background-color: rgb(60, 33, 118); width: 10px; border-radius: 10px;margin: 0 auto; "></div>
+        </div>
+
+
+
+
+        <div id="" class="" style="padding: 10px;" class="margin-top:-10px">
+            <div style="border: 1px solid; box-sizing: border-box;">
+                <div class="">
+                    <div class="row justify-content-center">
+                        <div class="">
+                            <img id="sImg" src="images/monitoring_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Profile image" class="rounded-circle" style="height: 60px; width: 60px; background-color: blueviolet; margin-top: -27px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body mt-3">
+                    <h1 style="color: black; font-weight: 700;">Brand Recognition</h1>
+                    <p class="card-text text-muted" style="margin-top: 20px; color:">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+
+
+        <!-- Boosting  -->
+        <section id="boost" style="padding: 20px;">
+            <div style="justify-content: center; align-items: center; text-align: center; padding: 5px;">
+                <div class="stylesLine" style="padding: 10px;">
+                    <h1 style="font-weight: 800; color:rgb(30, 40, 40);">Boost your links today</h1>
+                </div>
+
+                <div class="">
+                    <button style="height: 70px; width: 230px; border-radius: 50px; font-size: 25px; font-weight: 800 ; color: rgb(240, 239, 239); background-color: rgb(67, 206, 211);">Get Started</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+          
+  <!-- Footer -->
+<footer class="foot text-white  text-center text-lg-start  bg-dark" 
+   
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="" style="background-color: rgba(189, 144, 144, 0.05);">
+      <div id="foot" class="p-5 text-center text-md-start  ">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="fCname fw-bold mb-4 text-white ">
+              <i class="fas fa-gem me-3"></i>Shortly
+            </h6>
+          
+          </div>
+          <!-- Grid column -->
+  
+
+          <div class="footerLinks col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-white text-uppercase fw-bold mb-3">
+                Features
+            </h6>
+            <p>
+              <a href="#!" class="text-white">Link Shortening</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Branded Links</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Analytics</a>
+            </p>
+           
+          
+          </div>
+
+          <div class="footerLinks col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+                Resources
+              </h6>
+              <p>
+                  <a href="#!" class="text-white">Blog</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Developer</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Support</a>
+                </p>
+           
+          
+          </div>
+  
+          <!-- Grid column -->
+          <div class="footerLinks col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Company
+            </h6>
+            <p>
+              <a href="#!" class="text-white ">About</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white ">Our Team</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white ">Careers</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white ">Contact</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+         
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+
+
+        <!-- Right -->
+      <div class="text-center ">
+        <a href="" class="me-4 text-white">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-white">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-white">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-white">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-white">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-white">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+
+      
+    <!-- Copyright -->
+    <div class="text-center p-4 " >
+        © 2021 Copyright:
+        <a class=" fw-bold" href="">Shortly.com</a>
+      </div>
+      <!-- Copyright -->
+      </div>
+
+      
+      
+    </section>
+    <!-- Section: Links  -->
+  
+
+  </footer>
+  <!-- Footer -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+    <script>
+        // Initialization for ES Users
+import { Input, Ripple, initMDB } from "mdb-ui-kit";
+
+initMDB({ Input, Ripple });
+    </script>
+
+    <script src="javaScript/bootstrap.bundle.js"></script>
+</body>
+</html>
